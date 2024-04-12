@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7aa9877477.js" crossorigin="anonymous"></script>
+    <title>Pokédex</title>
+</head>
+<body>
+
+    <header>
+        <div class="title">
+            <img src="images/pokeball.png" alt="">
+            <h1>POKÉDEX</h1>
+        </div>
+    </header>
+
+        <div class="container">
+            <div class="sub-container-pokeItems">
+                <div class="pokemon-menu">
+                    <div class="type-selector">
+                        <h2>FILTERS</h2>
+
+                        <div class="firstSelector">
+                            <p class="typeClass">ALL</p>
+                            <p class="typeClass">NORMAL</p>
+                            <p class="typeClass">FIRE</p>
+                            <p class="typeClass">GRASS</p>
+                            <p class="typeClass">ELECTRIC</p>
+                            <p class="typeClass">WATER</p>
+                        </div>
+
+                        <div class="secondSelector">
+                            <p class="typeClass">BUG</p>
+                            <p class="typeClass">DRAGON</p>
+                            <p class="typeClass">FIGHTING</p>
+                            <p class="typeClass">FLYING</p>
+                            <p class="typeClass">GHOST</p>
+                            <p class="typeClass">GROUND</p>
+                        </div>
+
+                        <div class="thirdSelector">
+                            <p class="typeClass">ICE</p>
+                            <p class="typeClass">POISON</p>
+                            <p class="typeClass">PSYCHIC</p>
+                            <p class="typeClass">ROCK</p>
+                            <p class="typeClass">FAIRY</p>
+                            <p class="typeClass">STEEL</p>
+                        </div>
+
+                    </div>
+
+                    <div class="pokemon-nav">
+                        <input id="textSearchPokemon" type="text" placeholder="Search Pokemon!">
+                        <button id="btnSearchPokemon"><img src="images/pokeball.png" alt=""></button>
+                    </div>
+
+                </div>    
+
+            <!-- Content API -->
+            
+            
+
+            </div>
+
+        <!-- <button id="btnLoad">Load more Pokémons</button> -->
+
+    </div>
+
+    <aside id="btnReference">
+
+        <div class="references collapsed">
+            <p>PORTFOLIO</p>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-solid fa-briefcase"></i></a>
+        </div>
+        
+        <h1>JQG</h1>
+
+    </aside>
+
+    <script src="js/pokeapi.js"></script>
+
+</body>
+</html>
